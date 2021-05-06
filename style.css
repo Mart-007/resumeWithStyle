@@ -54,23 +54,59 @@ body{
     .skills{
         text-align: center;
     }
+        progress{
+            border-radius: 5px;
+            background: aqua;
+        }
     .skills h4,
     .work_history h4,
     .education h4{
-        text-align: center;
+        text-align: left;
         margin-top: 10px;
         margin-bottom: 0px;
+        width: 15em;
     }
-        .work_history pre{
-            margin-left: 15em;
+        .position{
+            display: inline-block;
+            width: 20em;
         }
-            .work_history pre span{
-                margin-left: 6em;
-            }
+        .work_history tt{
+            text-align: left;
+        }
+        .work_history tt > span{
+            background-color: #121212;
+        }    
         .education pre{
-            margin-right: 8em;
-            text-align: center;
+            text-align: left;
         }
+        .education tt > span{
+            background-color: #121212;
+        }
+    footer{
+        margin: 20px;
+        margin-left: 8em;
+        margin-bottom: 5em solid #121212;
+    }
+    a{
+        margin-left: 5em;
+        text-decoration: none;
+        color: rgba(91, 181, 241, 0.15);  
+    }
+    a.github:hover{
+        color: rgba(245, 245, 245, 0.849);  
+    }
+    a.linkedin:hover{
+        color: #0e76a8;
+    }
+    a.facebook:hover{
+        color: #0a54f3;
+    }
+    a.twitter:hover{
+        color: #00acee;
+    }
+    footer a > i{
+        padding: 20px;
+    }
 
         
 
